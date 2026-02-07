@@ -1,0 +1,15 @@
+{
+    "name": "jmelar/functions",
+    "description": "Funciones PHP reutilizables para múltiples proyectos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jmelar\\Functions\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "proprietary",
+    "version": "1.0.0"
+}
