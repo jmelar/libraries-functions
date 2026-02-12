@@ -3,8 +3,8 @@
     "description": "Funciones PHP reutilizables para múltiples proyectos",
     "type": "library",
     "autoload": {
-        "files": [
-            "src/remove_accents.php",
+        "files": [            
+            "src/convert_image.php",
             "src/cut_text.php"
         ]
     },
