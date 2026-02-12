@@ -3,9 +3,10 @@
     "description": "Funciones PHP reutilizables para múltiples proyectos",
     "type": "library",
     "autoload": {
-        "psr-4": {
-            "Jmelar\\Functions\\": "src/"
-        }
+        "files": [
+            "src/remove_accents.php",
+            "src/cut_text.php"
+        ]
     },
     "require": {
         "php": ">=7.4"
