@@ -19,13 +19,17 @@ function validate_iban($iban)
 			$NewString .= $MovedCharArray[$key];
 		}
 		
-		if(bcmod($NewString, '97') == 1)
-		{
-			return true;
+		if (function_exists('bcmod')) {
+			return (bcmod($NewString, '97') == 1);
 		}
-		else{
-			return false;
+
+		$checksum = 0;
+		$digits = str_split($NewString);
+		foreach ($digits as $digit) {
+			$checksum = (($checksum * 10) + (int)$digit) % 97;
 		}
+
+		return ($checksum === 1);
 	}
 	else{
 		return false;
