@@ -9,7 +9,7 @@
 			"src/encrypt_decrypt.php",
 			"src/in_array_r.php",						
 			"src/mime_types.php",
-			"src/real_ip.php"
+			"src/real_ip.php",
 			"src/remove_accents.php",
 			"src/url_querystring.php",
 			"src/url_slug.php",
