@@ -3,9 +3,17 @@
     "description": "Funciones PHP reutilizables para múltiples proyectos",
     "type": "library",
     "autoload": {
-        "files": [            
+        "files": [
             "src/convert_image.php",
-            "src/cut_text.php"
+            "src/cut_text.php",
+			"src/encrypt_decrypt.php",
+			"src/in_array_r.php",
+			"src/mb_ucfirst.php",			
+			"src/mime_types.php",
+			"src/remove_accets.php",
+			"src/url_querystring.php",
+			"src/url_slug.php",
+			"src/validate_nif.php"
         ]
     },
     "require": {
